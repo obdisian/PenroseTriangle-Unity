@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: efe6a440e36454136835539f79719adf
+timeCreated: 1430379137
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: hitobone2:Head
+    100002: hitobone2:Hips
+    100004: hitobone2:LeftArm
+    100006: hitobone2:LeftUpLeg
+    100008: hitobone2:RightArm
+    100010: hitobone2:RightUpleg
+    100012: hitobone2:Spine
+    100014: //RootNode
+    100016: pCube12
+    400000: hitobone2:Head
+    400002: hitobone2:Hips
+    400004: hitobone2:LeftArm
+    400006: hitobone2:LeftUpLeg
+    400008: hitobone2:RightArm
+    400010: hitobone2:RightUpleg
+    400012: hitobone2:Spine
+    400014: //RootNode
+    400016: pCube12
+    4300000: pCube12
+    7400000: Idle
+    7400002: Walk
+    7400004: Run
+    7400006: Jump
+    9500000: //RootNode
+    13700000: pCube12
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hitobone2:Hips
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:LeftUpLeg
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:RightUpleg
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:Head
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:LeftArm
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:RightArm
+        weight: 1
+      - path: pCube12
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hitobone2:Hips
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:LeftUpLeg
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:RightUpleg
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:Head
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:LeftArm
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:RightArm
+        weight: 1
+      - path: pCube12
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 135
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hitobone2:Hips
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:LeftUpLeg
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:RightUpleg
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:Head
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:LeftArm
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:RightArm
+        weight: 1
+      - path: pCube12
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hitobone2:Hips
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:LeftUpLeg
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:RightUpleg
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:Head
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:LeftArm
+        weight: 1
+      - path: hitobone2:Hips/hitobone2:Spine/hitobone2:RightArm
+        weight: 1
+      - path: pCube12
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
